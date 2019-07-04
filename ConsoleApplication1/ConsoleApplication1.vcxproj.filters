@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\界面">
+      <UniqueIdentifier>{907ef8a2-d479-4f46-85aa-bc021ab87c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\界面\选择界面">
+      <UniqueIdentifier>{234df106-60c6-4060-a827-fb7d7acb0a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RUNGAME">
+      <UniqueIdentifier>{c2f1f62c-1425-4546-8548-e3c26a9212b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RUNGAME\动作">
+      <UniqueIdentifier>{3d4ac6d4-399b-4941-bb14-6fded654dee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RUNGAME\判断">
+      <UniqueIdentifier>{8d50d9f5-c468-4f27-b608-133c8a5f01e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\RUNGAME\生成">
+      <UniqueIdentifier>{9228c798-77c0-44e1-a0f1-4b5a4570154a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\界面\装饰性界面">
+      <UniqueIdentifier>{efbbd517-591c-4d5e-8bbd-0055ce332bf9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossMap.cpp">
+      <Filter>源文件\RUNGAME\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="EatOrBite.cpp">
+      <Filter>源文件\RUNGAME\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="Harm.cpp">
+      <Filter>源文件\RUNGAME\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="New.cpp">
+      <Filter>源文件\RUNGAME\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件\RUNGAME\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="Print.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>源文件\界面\选择界面</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>源文件\RUNGAME\生成</Filter>
+    </ClCompile>
+    <ClCompile Include="Teleport.cpp">
+      <Filter>源文件\RUNGAME\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillCool.cpp">
+      <Filter>源文件\RUNGAME\判断</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="List.cpp">
+      <Filter>源文件\界面\装饰性界面</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameres.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseAndSave.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="Read.cpp">
+      <Filter>源文件\RUNGAME\动作</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadUI.cpp">
+      <Filter>源文件\界面\选择界面</Filter>
+    </ClCompile>
+    <ClCompile Include="StartBack.cpp">
+      <Filter>源文件\界面\装饰性界面</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="snake.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Judge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Born.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Other.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
